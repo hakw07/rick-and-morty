@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'TT Travels';
+    background-color: $primary;
+}
+
+button {
+    font-family: 'TT Travels';
+}
+
+.link, a {
+    text-decoration: none;
+}
+
+.loading {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.logo {
+    margin: 0 auto;
+    padding-top: 58px;
+    height: auto;
+    width: 227px;
+
+    img {
+        height: 48px;
+        width: 100%;
+        object-fit: cover;
+    }
+}

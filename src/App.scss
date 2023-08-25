@@ -1,5 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+// utils
+@import './styles/variables';
+
+// base
+@import './styles/reset';
+@import './styles/global';
+@import './styles/typography';
+
+// pages
+@import './styles/home';

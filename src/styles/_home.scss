@@ -1,0 +1,159 @@
+.home {
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+
+    .homeTopSide {
+        background: url('../assets/images/home/backgrounds/background.png');
+        background-size: cover;
+        background-position: center;
+
+        .headingContainer {
+            position: relative;
+            margin: 0 auto;
+            margin-top: 26px;
+            height: 511px;
+            width: 1476px;
+
+            .elements {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+
+                #bubble {
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    height: 270px;
+                    width: 270px;
+                    z-index: 99;
+                }
+
+                #portal {
+                    position: absolute;
+                    top: 103px;
+                    left: 463px;
+                    height: 145px;
+                    width: 225px;
+                }
+
+                #gun {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    height: 332px;
+                    width: 319px;
+                }
+            }
+
+            .headerTitle {
+                position: absolute;
+                top: 129px;
+                left: 154px;
+                height: 308px;
+                width: 1075px;
+
+                h1 {
+                    font-size: 128px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+
+                    .italic {
+                        color: #eee;
+                        font-style: italic;
+                    }
+                }
+
+                h1.headerTitleTop {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .gradient {
+                        background: linear-gradient(45deg, $green, $blue, $blue);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+
+                    &::before {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        content: '';
+                        height: 110%;
+                        width: 110%;
+                        background: url('../assets/images/home/hero-elements/Glow.svg');
+                        background-size: contain;
+                    }
+                }
+
+                h1.headerTitleBottom {
+                    .gradient {
+                        background: linear-gradient(45deg, $green, $green, $blue);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    top: -1rem;
+                    right: -1rem;
+                    height: 10px;
+                    width: 50px;
+                    background: linear-gradient(120deg, $green, $blue);
+                    border-radius: 50px;
+                }
+            }
+
+            .headingBottom {
+                margin-top: 16px;
+                position: absolute;
+                bottom: 0;
+                left: 42%;
+                transform: translateX(-42%);
+                display: flex;
+                align-items: center;
+
+                button {
+                    height: 58px;
+                    width: 203px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 100px;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    background: linear-gradient(120deg, $green, $blue);
+
+                    .vectorIcon {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    span {
+                        margin-left: 10px;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+
+                .headingBottomText {
+                    margin-left: 89px;
+
+                    p {
+                        color: $blue;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
