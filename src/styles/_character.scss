@@ -1,0 +1,39 @@
+.characterBox {
+    position: relative;
+
+    .cardLayout {
+        width: 290px;
+        height: 296px;
+    }
+
+    .characterBoxContent {
+        padding: 16px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+
+        .image {
+            height: 216px;
+            width: 258px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 4px;
+            }
+        }
+
+        .text {
+            margin-top: 24px;
+
+            p {
+                color: #fff;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}

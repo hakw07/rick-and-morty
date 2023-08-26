@@ -1,5 +1,8 @@
 import React from 'react';
 
+// components
+import MeetTheCast from '../components/MeetTheCast';
+
 // images
 import logo from '../assets/images/Logo.svg';
 import bubble from '../assets/images/home/hero-elements/bubble.png';
@@ -48,6 +51,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+
+                <MeetTheCast />
             </div>
         </div>
     );
