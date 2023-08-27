@@ -156,4 +156,34 @@
             }
         }
     }
+
+    .homeBottomSide {
+        position: relative;
+        padding-bottom: 80px;
+
+        &::before {
+            position: absolute;
+            content: '';
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 30%;
+            background: url('../assets/images/home/backgrounds/spiral.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            height: 70%;
+            width: 100%;
+            background: url('../assets/images/home/backgrounds/star.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
 }

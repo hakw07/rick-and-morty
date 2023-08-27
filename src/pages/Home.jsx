@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AppContext } from '../context/AppContextProvider';
 
 // components
 import MeetTheCast from '../components/MeetTheCast';
+import List from '../components/List';
 
 // images
 import logo from '../assets/images/Logo.svg';
@@ -10,6 +12,14 @@ import portal from '../assets/images/home/hero-elements/portal.svg';
 import gun from '../assets/images/home/hero-elements/Gun.svg';
 
 const Home = () => {
+    const { locations, episodes } = useContext(AppContext);
+
+    const locationsData = locations[0];
+    const locationsLoader = locations[1];
+
+    const episodesData = episodes[0];
+    const episodesLoader = episodes[1];
+
     return (
         <div className="home">
             <div className="homeTopSide">
@@ -53,6 +63,11 @@ const Home = () => {
                 </div>
 
                 <MeetTheCast />
+            </div>
+
+            <div className="homeBottomSide">
+                <List title="Episodes" data={episodesData} loader={episodesLoader} />
+                <List title="Locations" data={locationsData} loader={locationsLoader} />
             </div>
         </div>
     );
