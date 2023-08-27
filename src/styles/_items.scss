@@ -1,0 +1,138 @@
+.itemsBox {
+    padding: 0 10px 8rem;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: url('../assets/images/cast/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+    .itemsContent {
+        margin: 0 auto;
+        margin-top: 110px;
+        max-width: 1420px;
+
+        .itemsTitle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h1 {
+                color: $blue;
+                font-size: 64px;
+                font-weight: 600;
+            }
+
+            .filterBox {
+                display: flex;
+                width: 420px;
+                height: 45px;
+                align-items: center;
+                justify-content: center;
+                border-radius: 0.2rem;
+                overflow: hidden;
+
+                select {
+                    color: #fff;
+                    height: 100%;
+                    width: 32%;
+                    padding: 0 0.4rem;
+                    font-size: 1.2rem;
+                    border: none;
+                    outline: none;
+                    background: $blue;
+
+                    option {
+                        background: $primary;
+                    }
+                }
+
+                input {
+                    padding: 0 0.6rem;
+                    color: #fff;
+                    font-size: 1.2rem;
+                    outline: none;
+                    height: 100%;
+                    width: 68%;
+                    border: 1px solid $blue;
+                    border-left: none;
+                    box-sizing: border-box;
+                    border-radius: 0 0.2rem 0.2rem 0;
+                    background: $primary;
+                }
+            }
+        }
+
+        .itemsWrap {
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 3rem;
+            width: 100%;
+        }
+    }
+
+    .paginationBox {
+        margin-top: 5rem;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .paginationBtns {
+            width: auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            list-style-type: none;
+
+            .paginationBtn {
+                margin-right: 1rem;
+                border: 1px solid #0dbec7;
+                border-radius: 0.2rem;
+
+                button {
+                    padding: 0.5rem 0.8rem;
+                    color: #fff;
+                    width: auto;
+                    min-width: 2.4rem;
+                    height: 2.4rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    outline: none;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    cursor: pointer;
+                    background: transparent;
+                }
+
+                button.arrowBtn {
+                    padding: 0.54rem 0.8rem;
+                }
+
+                button.activeBtn {
+                    color: #fff;
+                    background-color: #0dbec7;
+                }
+
+                &:first-child,
+                &:last-child {
+                    border: none;
+
+                    button {
+                        .arrowIcon {
+                            color: #ddd;
+                            font-size: 2.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
