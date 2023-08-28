@@ -1,0 +1,450 @@
+.castDetails {
+    padding-bottom: 86px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: url('../assets/images/cast-details/background.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    .castDetailsContent {
+        margin: 146px 90px 0 180px;
+        position: relative;
+        display: flex;
+        width: 1530px;
+        align-items: center;
+        justify-content: space-between;
+
+        .backgroundText {
+            position: absolute;
+            top: 50%;
+            left: -8%;
+            transform: translate(-50%) rotate(-90deg);
+
+            h1 {
+                font-size: 100px;
+                font-weight: 800;
+                text-align: center;
+                background: linear-gradient(45deg, $blue, $green);
+                -webkit-text-stroke-width: 4px;
+                -webkit-text-stroke-color: transparent;
+                -webkit-text-fill-color: $primary;
+                -webkit-background-clip: text;
+                opacity: 0.1;
+            }
+        }
+
+        .castDetailsLeft {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .castName {
+                color: $blue;
+                font-size: 48px;
+                font-weight: 600;
+                margin-bottom: 32px;
+                text-align: center;
+            }
+
+            .profileImageBox {
+                position: relative;
+
+                .profileImageLayout {
+                    height: 400px;
+                    width: 400px;
+                }
+
+                .profileImage {
+                    position: absolute;
+                    top: 52px;
+                    left: 48px;
+                    height: 300px;
+                    width: 300px;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+
+        .castDetailsRight {
+            .detailsCard {
+                position: relative;
+                margin-bottom: 40px;
+                width: 800px;
+                height: 174px;
+
+                .detailsCardLayout {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .cardInfo {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    padding: 16px 0 0 32px;
+                    width: 100%;
+                    height: 100%;
+                    box-sizing: border-box;
+
+                    .cardIcon {
+                        height: 48px;
+                        width: 48px;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .cardAttr {
+                        margin-top: 8px;
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: normal;
+                    }
+
+                    .cardValue {
+                        margin-top: 8px;
+                        color: #fff;
+                        font-size: 40px;
+                        font-weight: 600;
+                    }
+
+                    .cardIconLink {
+                        position: absolute;
+                        bottom: 28px;
+                        right: 28px;
+                        height: 32px;
+                        width: 32px;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+
+            .rightBottomCard {
+                margin-bottom: 0;
+                width: 800px;
+                height: 417px;
+                border-radius: 6px;
+                overflow: hidden;
+
+                .rightBottomCardLayout {
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .rightBottomCardInfo {
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+                    overflow-y: scroll;
+
+                    /* width */
+                    &::-webkit-scrollbar {
+                        width: 6px;
+                    }
+
+                    /* Track */
+                    &::-webkit-scrollbar-track {
+                        background: transparent;
+                        border-radius: 8px;
+                    }
+
+                    /* Handle */
+                    &::-webkit-scrollbar-thumb {
+                        background: linear-gradient(120deg, $green, $blue);
+                        border-radius: 8px;
+                    }
+
+                    .cardIcon {
+                        margin-top: 16px;
+                    }
+
+                    ul {
+                        margin: 36px 0 30px 52px;
+                    }
+                }
+            }
+
+            .rightTopCards {
+                display: flex;
+                justify-content: space-between;
+
+                .rightTopCard {
+                    width: 240px;
+                    height: 174px;
+
+                    .rightTopCardLayout {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &::before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 94%;
+        height: 50%;
+        background: url('../assets/images/cast-details/star.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1860px) {
+    .castDetails {
+        .castDetailsContent {
+            margin: 100px 90px 0 180px;
+            width: 1030px;
+
+            .backgroundText {
+                position: absolute;
+                top: 50%;
+                left: -8%;
+    
+                h1 {
+                    font-size: 80px;
+                }
+            }
+
+            .castDetailsLeft {
+                .castName {
+                    font-size: 38px;
+                }
+
+                .profileImageBox {
+                    .profileImageLayout {
+                        height: 300px;
+                        width: 290px;
+                    }
+
+                    .profileImage {
+                        top: 40px;
+                        left: 34px;
+                        height: 220px;
+                        width: 224px;
+                    }
+                }
+            }
+
+            .castDetailsRight {
+                .detailsCard {
+                    margin-bottom: 18px;
+                    display: flex;
+                    width: 545px;
+                    height: 120px;
+                    justify-content: center;
+
+                    .cardInfo {
+                        padding: 14px 0 0 22px;
+
+                        .cardIcon {
+                            height: 28px;
+                            width: 28px;
+                        }
+
+                        .cardAttr {
+                            margin-top: 6px;
+                            font-size: 16px;
+                        }
+
+                        .cardValue {
+                            margin-top: 6px;
+                            font-size: 24px;
+                        }
+
+                        .cardIconLink {
+                            bottom: 18px;
+                            right: 18px;
+                            height: 22px;
+                            width: 22px;
+                        }
+                    }
+                }
+
+                .rightBottomCard {
+                    height: 285px;
+
+                    .rightBottomCardInfo {
+                        &::-webkit-scrollbar {
+                            width: 4px;
+                        }
+
+                        .cardIcon {
+                            margin-top: 0;
+                        }
+                    }
+                }
+
+                .rightTopCards {
+                    .rightTopCard {
+                        width: 166px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .castDetails {
+        .castDetailsContent {
+            margin: 0 auto;
+            margin-top: 100px;
+            width: 100%;
+            flex-direction: column;
+
+            .backgroundText {
+                left: 8%;
+            }
+
+            .seperator {
+                display: none;
+            }
+
+            .castDetailsRight {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .castDetails {
+        .castDetailsContent {
+            .backgroundText {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .castDetails {
+        padding-bottom: 32px;
+        background: url('../assets/images/home/backgrounds/background.png');
+        background-size: cover;
+        background-position-x: 74%;
+
+        .logo {
+            width: 133px;
+            padding-top: 46px;
+
+            img {
+                height: 28px;
+            }
+        }
+
+        .castDetailsContent {
+            margin-top: 50px;
+
+            .castDetailsLeft {
+                .castName {
+                    font-size: 24px;
+                }
+
+                .profileImageBox {
+                    .profileImageLayout {
+                        height: 240px;
+                        width: 240px;
+                    }
+
+                    .profileImage {
+                        top: 30px;
+                        left: 30px;
+                        height: 180px;
+                        width: 180px;
+
+                        img {
+                            border-radius: 4.8px;
+                        }
+                    }
+                }
+            }
+
+            .castDetailsRight {
+                margin-top: 18px;
+
+                .detailsCard {
+                    margin-bottom: 16px;
+                    width: 348px;
+                    height: 76px;
+
+                    .cardInfo {
+                        padding: 7px 0 0 14px;
+
+                        .cardIcon {
+                            height: 20px;
+                            width: 20px;
+                        }
+
+                        .cardAttr {
+                            margin-top: 6px;
+                            font-size: 9px;
+                        }
+
+                        .cardValue {
+                            margin-top: 6px;
+                            font-size: 18px;
+                        }
+
+                        .cardIconLink {
+                            bottom: 12px;
+                            right: 18px;
+                            height: 14px;
+                            width: 14px;
+                        }
+                    }
+                }
+
+                .rightBottomCard {
+                    height: 182px;
+
+                    .rightBottomCardInfo {
+                        ul {
+                            margin: 16px 0 20px 26px;
+                        }
+                    }
+                }
+
+                .rightTopCards {
+                    .rightTopCard {
+                        width: 104px;
+                        height: 76px;
+                    }
+                }
+            }
+        }
+
+        &::before {
+            background: none;
+        }
+    }
+}
