@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import TheCast from './pages/TheCast';
 import Locations from './pages/Locations';
+import Episodes from './pages/Episodes';
 
 // scss
 import './App.scss';
@@ -16,6 +17,7 @@ const App = () => {
             <Route path="/" element={<Home/>} />
             <Route path="/cast" element={<TheCast/>} />
             <Route path="/locations" element={<Locations/>} />
+            <Route path="/episodes" element={<Episodes/>} />
         </Routes>
     </BrowserRouter>
   );
