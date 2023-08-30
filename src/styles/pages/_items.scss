@@ -1,9 +1,10 @@
 .itemsBox {
-    padding: 0 10px 120px;
+    padding: 0 10px;
+    padding-bottom: 2rem;
     width: 100%;
     height: auto;
     min-height: 100vh;
-    background: url('../assets/images/cast/background.png');
+    background: url('../../assets/images/cast/background.png');
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -75,7 +76,7 @@
     }
 
     .paginationBox {
-        margin-top: 5rem;
+        padding: 6rem 0 2rem 0;
         height: auto;
         width: 100%;
         display: flex;
@@ -146,7 +147,7 @@
     }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1240px) {
     .itemsBox {
         .itemsContent {
             .itemsTitle {
@@ -155,7 +156,7 @@
                 }
             }
 
-            .characterWrap {
+            .itemsWrap {
                 justify-content: space-evenly;
             }
         }
@@ -262,6 +263,8 @@
         padding: 0 1rem 5rem 1rem;
 
         .itemsContent {
+            margin-top: 50px;
+
             .itemsTitle {
                 h1 {
                     font-size: 40px;
@@ -279,8 +282,6 @@
 @media screen and (max-width: 440px) {
     .itemsBox {
         .itemsContent {
-            margin-top: 68px;
-
             .characterWrap {
                 margin-top: 28px;
             }

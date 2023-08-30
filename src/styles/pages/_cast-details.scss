@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background: url('../assets/images/cast-details/background.png');
+    background: url('../../assets/images/cast-details/background.png');
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -211,7 +211,7 @@
         transform: translateX(-50%);
         width: 94%;
         height: 50%;
-        background: url('../assets/images/cast-details/star.png');
+        background: url('../../assets/images/cast-details/star.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -349,7 +349,7 @@
 @media screen and (max-width: 570px) {
     .castDetails {
         padding-bottom: 32px;
-        background: url('../assets/images/home/backgrounds/background.png');
+        background: url('../../assets/images/home/backgrounds/background.png');
         background-size: cover;
         background-position-x: 74%;
 

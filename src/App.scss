@@ -1,18 +1,16 @@
 // utils
-@import './styles/variables';
-
-// base
-@import './styles/reset';
-@import './styles/global';
-@import './styles/typography';
+@import './styles/utils/variables';
+@import './styles/utils/reset';
+@import './styles/utils/global';
+@import './styles/utils/typography';
 
 // components
-@import './styles/character';
-@import './styles/slider-btns';
-@import './styles/slider';
-@import './styles/slider_card';
+@import './styles/components/character';
+@import './styles/components/slider-btns';
+@import './styles/components/slider';
+@import './styles/components/slider_card';
 
 // pages
-@import './styles/home';
-@import './styles/items';
-@import './styles/cast-details';
+@import './styles/pages/home';
+@import './styles/pages/items';
+@import './styles/pages/cast-details';

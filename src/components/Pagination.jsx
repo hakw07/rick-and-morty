@@ -51,7 +51,6 @@ const Pagination = ({ totalPages }) => {
                 <li className="paginationBtn"><button className="arrowBtn" onClick={nextPage}><MdKeyboardDoubleArrowRight className="arrowIcon" /></button></li>
             </ul>
         </div>
-        // <button onClick={() => console.log('Hello!')}>Click Me!</button>
     );
 }
 
