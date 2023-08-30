@@ -29,3 +29,24 @@ body {
         object-fit: cover;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .logo {
+        width: 160px;
+        padding-top: 42px;
+
+        img {
+            height: 34px;
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .logo {
+        width: 133px;
+
+        img {
+            height: 28px;
+        }
+    }
+}
