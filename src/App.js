@@ -8,12 +8,16 @@ import Locations from './pages/Locations';
 import Episodes from './pages/Episodes';
 import CastDetails from './pages/CastDetails';
 
+// effects
+import ScrollToTop from './effects/ScrollToTop';
+
 // scss
 import './App.scss';
 
 const App = () => {
   return (
     <BrowserRouter>
+        <ScrollToTop/>
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/cast" element={<TheCast/>} />
