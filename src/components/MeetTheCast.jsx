@@ -55,7 +55,7 @@ const MeetTheCast = () => {
     }
 
     return (
-        <div className="meetTheCast">
+        <div className="meetTheCast list">
             <div className="header">
                 <p className="title">Meet the cast</p>
                 <button onClick={handleBtnClick}>View All</button>

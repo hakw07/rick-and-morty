@@ -2,7 +2,7 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1440px;
-    padding: 107px 10px 0 10px;
+    padding: 107px 32px 0 32px;
 
     .header {
         position: relative;
@@ -46,9 +46,13 @@
     }
 }
 
+.list.meetTheCast {
+    margin-top: 60px;
+}
+
 @media screen and (max-width: 660px) {
     .list {
-        padding: 32px 32px 0 32px;
+        padding: 32px 28px 0 28px;
 
         .header {
             .title {
