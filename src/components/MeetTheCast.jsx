@@ -23,12 +23,21 @@ const MeetTheCast = () => {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         initialSlide: 0,
         prevArrow: <PrevBtn type="cast"/>,
         nextArrow: <NextBtn type="cast"/>,
         responsive: [
+            {
+                breakpoint: 1680,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: false
+                }
+            },
             {
                 breakpoint: 1280,
                 settings: {

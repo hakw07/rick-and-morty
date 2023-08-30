@@ -15,12 +15,21 @@ const List = ({ title, data, loader }) => {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
         prevArrow: <PrevBtn/>,
         nextArrow: <NextBtn/>,
         responsive: [
+            {
+                breakpoint: 1680,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: false
+                }
+            },
             {
                 breakpoint: 1280,
                 settings: {
