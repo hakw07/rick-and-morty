@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Rick And Morty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application with Rick & Morty API
 
-## Available Scripts
+**API Doc -** [https://rickandmortyapi.com/documentation](https://rickandmortyapi.com/documentation)
 
-In the project directory, you can run:
+**Live Site -** [https://ricck-and-morty.vercel.app/](https://ricck-and-morty.vercel.app/)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Preview
+![01](https://github.com/hakw07/rick-and-morty/assets/141500318/38b1cb0e-c8d7-4ba5-a5c7-eb6ee32a462f)
+![02](https://github.com/hakw07/rick-and-morty/assets/141500318/6cd0d395-f5b9-493c-89fd-67e23b35e895)
+![03](https://github.com/hakw07/rick-and-morty/assets/141500318/3f9660f9-e7a3-44dd-89e6-49751f190738)
+![04](https://github.com/hakw07/rick-and-morty/assets/141500318/dd4a13a9-42b5-4e1e-9201-3098a0175c75)
+![05](https://github.com/hakw07/rick-and-morty/assets/141500318/09348837-bed4-4938-be97-eb482f9b56fc)
+![06](https://github.com/hakw07/rick-and-morty/assets/141500318/48a015ed-e193-4fd0-bdda-9164f8187d8a)
