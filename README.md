@@ -6,7 +6,14 @@ A web application with Rick & Morty API
 
 **Live Site -** [https://ricck-and-morty.vercel.app/](https://ricck-and-morty.vercel.app/)
 
-# Preview
+## Features
+```bash
+- Characters, Episodes and Locations List view
+- Characters details view
+- Search, Filter and Pagination System
+```
+
+## Preview
 ![01](https://github.com/hakw07/rick-and-morty/assets/141500318/38b1cb0e-c8d7-4ba5-a5c7-eb6ee32a462f)
 ![02](https://github.com/hakw07/rick-and-morty/assets/141500318/6cd0d395-f5b9-493c-89fd-67e23b35e895)
 ![03](https://github.com/hakw07/rick-and-morty/assets/141500318/3f9660f9-e7a3-44dd-89e6-49751f190738)
