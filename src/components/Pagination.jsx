@@ -42,6 +42,7 @@ const Pagination = ({ totalPages }) => {
         <div className="paginationBox">
             <ul className="paginationBtns">
                 <li className="paginationBtn"><button className="arrowBtn" onClick={prevPage}><MdKeyboardDoubleArrowLeft className="arrowIcon" /></button></li>
+                {(currentPage > 2) && <li className="paginationBtn"><button onClick={() => setCurrentPage(1)}>1</button></li>}
                 {(currentPage > 2) && <li className="paginationBtn"><button onClick={multiPrevPage}>...</button></li>}
                 {(currentPage > 1) && <li className="paginationBtn"><button onClick={prevPage}>{currentPage - 1}</button></li>}
                 <li className="paginationBtn"><button disabled className="activeBtn">{currentPage}</button></li>
