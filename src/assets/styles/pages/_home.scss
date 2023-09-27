@@ -7,7 +7,7 @@
     overflow-x: hidden;
 
     .homeTopSide {
-        background: url('../../assets/images/home/backgrounds/background.png');
+        background: url('../../images/home/backgrounds/background.png');
         background-size: cover;
         background-position: center;
 
@@ -88,7 +88,7 @@
                         transform: translate(-50%, -50%);
                         height: 110%;
                         width: 110%;
-                        background: url('../../assets/images/home/hero-elements/Glow.svg');
+                        background: url('../../images/home/hero-elements/Glow.svg');
                         background-size: contain;
                     }
                 }
@@ -171,7 +171,7 @@
             right: 0;
             height: 100%;
             width: 30%;
-            background: url('../../assets/images/home/backgrounds/spiral.png');
+            background: url('../../images/home/backgrounds/spiral.png');
             background-size: cover;
             background-position: center;
         }
@@ -183,7 +183,7 @@
             left: 0;
             height: 70%;
             width: 100%;
-            background: url('../../assets/images/home/backgrounds/star.png');
+            background: url('../../images/home/backgrounds/star.png');
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -245,7 +245,7 @@
 
 @media screen and (max-width: 1080px) {
     .home {
-        background: url('../../assets/images/home/backgrounds/background.png');
+        background: url('../../images/home/backgrounds/background.png');
         background-size: cover;
         background-position: 75% 75%;
 

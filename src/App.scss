@@ -1,16 +1,16 @@
 // utils
-@import './styles/utils/variables';
-@import './styles/utils/reset';
-@import './styles/utils/global';
-@import './styles/utils/typography';
+@import './assets/styles/utils/variables';
+@import './assets/styles/utils/reset';
+@import './assets/styles/utils/global';
+@import './assets/styles/utils/typography';
 
 // components
-@import './styles/components/character';
-@import './styles/components/slider-btns';
-@import './styles/components/slider';
-@import './styles/components/slider_card';
+@import './assets/styles/components/character';
+@import './assets/styles/components/slider-btns';
+@import './assets/styles/components/slider';
+@import './assets/styles/components/slider_card';
 
 // pages
-@import './styles/pages/home';
-@import './styles/pages/items';
-@import './styles/pages/cast-details';
+@import './assets/styles/pages/home';
+@import './assets/styles/pages/items';
+@import './assets/styles/pages/cast-details';
