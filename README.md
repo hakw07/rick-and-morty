@@ -8,9 +8,9 @@ A web application with Rick & Morty API.
 
 ## Features
 ```bash
-- Characters, Episodes and Locations List view
-- Characters details view
-- Search, Filter and Pagination System
+✅ Characters, Episodes and Locations List view
+✅ Characters details view
+✅ Searching, Filtering and Pagination System
 ```
 
 ## Preview
