@@ -55,6 +55,15 @@ const MeetTheCast = () => {
                     infinite: false,
                     dots: false
                 }
+            },
+            {
+                breakpoint: 350,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: false,
+                    dots: false
+                }
             }
         ]
     };

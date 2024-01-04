@@ -79,7 +79,7 @@ const TheCast = () => {
                     </div>
                 </div>
 
-                {!loadingStatus ? <div className="itemsWrap" style={(searchTxt && (searchData && searchData.length < 4)) ? {justifyContent: 'start'} : null}>
+                {!loadingStatus ? <div className="itemsWrap characters" style={(searchTxt && (searchData && searchData.length < 4)) ? {justifyContent: 'start'} : null}>
                     {searchData && (!loader ? 
                         searchData.length === 0 ? <p className="loading">No Items Found!</p> : 
                         searchData.map((data) => {
