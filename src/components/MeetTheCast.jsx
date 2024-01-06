@@ -1,11 +1,13 @@
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
+
+// context
 import { AppContext } from '../context/AppContextProvider';
 
 // components
-import Character from './Character';
 import PrevBtn from './PrevBtn';
 import NextBtn from './NextBtn';
+import Character from './Character';
 
 // slick slider
 import Slider from "react-slick";

@@ -1,11 +1,14 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
+// context
 import { AppContext } from '../context/AppContextProvider';
+
+// components
 import Character from '../components/Character';
+import Pagination from '../components/Pagination';
 
 import logo from '../assets/images/Logo.svg';
-import Pagination from '../components/Pagination';
 
 const TheCast = () => {
     const { characters, setCurrentPage } = useContext(AppContext);

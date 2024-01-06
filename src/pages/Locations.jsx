@@ -1,11 +1,14 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+// context
 import { AppContext } from '../context/AppContextProvider';
 
-import logo from '../assets/images/Logo.svg';
-import Pagination from '../components/Pagination';
+// components
 import ListCard from '../components/ListCard';
+import Pagination from '../components/Pagination';
+
+import logo from '../assets/images/Logo.svg';
 
 const Locations = () => {
     const { locations, setCurrentPage } = useContext(AppContext);

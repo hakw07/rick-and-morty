@@ -1,4 +1,6 @@
 import React, { useContext } from 'react';
+
+// context
 import { AppContext } from '../context/AppContextProvider';
 
 // components

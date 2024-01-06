@@ -1,7 +1,11 @@
 import React, { useContext } from 'react';
+
+// context
+import { AppContext } from '../context/AppContextProvider';
+
+// icons
 import { MdKeyboardDoubleArrowLeft } from 'react-icons/md';
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
-import { AppContext } from '../context/AppContextProvider';
 
 const Pagination = ({ totalPages }) => {
     const { currentPage, setCurrentPage } = useContext(AppContext);
