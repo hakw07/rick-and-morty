@@ -19,7 +19,7 @@ A web application with Rick & Morty API.
 #### The Cast
 ![02](https://github.com/hakw07/rick-and-morty/assets/141500318/6cd0d395-f5b9-493c-89fd-67e23b35e895)
 #### Searching
-![03](https://github.com/hakw07/rick-and-morty/assets/141500318/3f9660f9-e7a3-44dd-89e6-49751f190738)
+![03](https://github.com/riazul01/rick-and-morty/assets/141500318/ed50a0ef-9169-4789-972a-dc4dd88260da)
 #### Character details
 ![04](https://github.com/hakw07/rick-and-morty/assets/141500318/dd4a13a9-42b5-4e1e-9201-3098a0175c75)
 #### Locations
