@@ -17,17 +17,6 @@
             font-weight: 500;
         }
 
-        .arrowIcons {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 38px;
-            align-items: center;
-            justify-content: space-between;
-            display: none;
-        }
-
         button {
             padding: 10px 24px;
             color: #fff;
@@ -82,10 +71,6 @@
         .header {
             .title {
                 font-size: 16px;
-            }
-
-            .arrowIcons {
-                display: flex;
             }
 
             button {
